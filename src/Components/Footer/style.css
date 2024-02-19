@@ -1,0 +1,9 @@
+.psc-footer {
+    width: 100%;
+    display: inline-block;
+}
+
+.psc-footer p,
+.psc-footer p a {
+    color: rgba(var(--grey), 1);
+}
