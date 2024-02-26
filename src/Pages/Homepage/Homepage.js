@@ -1,40 +1,50 @@
-import {ReactCompareSlider, ReactCompareSliderImage} from 'react-compare-slider';
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './style.css'
 
+import {Helmet} from "react-helmet-async";
+import logo from '../../images/logo-prima.svg'
 import imgHero from '../../images/hero-home.svg'
-import imgSkin1 from '../../images/img-skin-1.svg'
-import imgSkin2 from '../../images/img-skin-2.svg'
-import Img1 from '../../images/img1.svg'
+import Img1 from '../../images/img-1.svg'
+import Img2 from '../../images/img-2.png'
+import Img3 from '../../images/img-3.png'
 import pkg from '../../../package.json'
-import {Map} from "../../Components/Map/Map";
+import Map from "../../Components/Map/Map";
 import {Serviceslider} from "../../Components/Serviceslider/Serviceslider";
 import {Testimonials} from "../../Components/Tesitimonials/Testimonials";
 
 
 export const Homepage = () => {
     return (
-        <div className='content-main'>
+        <>
+            <Helmet>
+                <title>Prima Skin Clinic</title>
+                <meta name="description" content="Welcome to Prima Skin and Aesthetics Clinic, your partner in achieving healthy and radiant skin and hair"/>
+                <meta property="og:title" content="Prima Skin Clinic" data-rh="true" />
+                <meta property="og:description" content="Welcome to Prima Skin and Aesthetics Clinic, your partner in achieving healthy and radiant skin and hair" data-rh="true" />
+                <meta property="og:image" content={ logo } data-rh="true" />
+            </Helmet>
+
+            <div className='content-main' id={'home'}>
             <div className='hero-home position-relative'>
                 <figure><img src={imgHero} alt={pkg.name}/></figure>
 
                 <div className="hero-text d-flex align-items-center">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-6">
-                                <h1>Welcome to <br/> PRIMA Skin Clinic</h1>
-                                <p className='text-xlarge mb-3'>The Home of Beauty and Aesthetics</p>
-                                <a href="#Contact" className='btn btn-primary btn-lg'>Contact Us</a>
+                            <div className="col-lg-6 pe-lg-5">
+                                <h1>Unlock Your Natural Beauty</h1>
+                                <p className='mb-3'>Welcome to Prima Skin and Aesthetics Clinic, your partner in achieving healthy and radiant skin and hair. Our team of experienced dermatologists provides personalized consultation and a range of services tailored to meet your unique needs. We believe that everyone deserves healthy and glowing skin and hair, and we’re here to help you achieve just that.
+                                </p>
+                                <a href="#book" className='btn btn-primary btn-lg'>Book Now</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="py-80">
-                <div className="container">
+            <div id={'services'}>
+                <div className="container py-80">
                     <h2 className='text-center mb-4'>Benefit Using Our Services</h2>
                     <div className="service-slider-container">
                         <Serviceslider />
@@ -42,29 +52,54 @@ export const Homepage = () => {
                 </div>
             </div>
 
-            <div className="py-80">
+
+            <div className="py-80 bg-grey">
                 <div className="container">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-10">
-                            <ReactCompareSlider
-                                itemOne={<ReactCompareSliderImage src={imgSkin2} alt="Image one"/>}
-                                itemTwo={<ReactCompareSliderImage src={imgSkin1} alt="Image two"/>}
-                            />
+                    <div className="row flex-lg-row-reverse align-items-center">
+                        <div className="col-lg-6 ps-lg-5">
+                            <h2>Acne-Free Skin: A Journey with Prima Skin and Aesthetics Clinic</h2>
+                            <p>Discover how we helped our client achieve clear, healthy skin with our personalized consultation and effective treatment plan for acne-prone skin.</p>
+
+                            <ul className={'check-ul-list'}>
+                                <li>Personalized consultation</li>
+                                <li>Customized treatment plan</li>
+                            </ul>
+                        </div>
+
+                        <div className="col-lg-6">
+                            <figure><img src={Img2} alt={pkg.name}/></figure>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className="py-5">
+            <div className="py-80 bg-grey">
                 <div className="container">
+                    <div className="row align-items-center">
+                        <div className="col-lg-6 pe-lg-5">
+                            <h2>Hair Transplant: A Life-Changing Experience with Prima Skin and Aesthetics Clinic</h2>
+                            <p>Learn how we transformed our client’s life by providing a painless, effective hair transplant procedure that helped restore their confidence and self-esteem.</p>
+
+                            <ul className={'check-ul-list'}>
+                                <li>Painless procedure</li>
+                                <li>Natural-looking results</li>
+                            </ul>
+                        </div>
+
+                        <div className="col-lg-6">
+                            <figure><img src={Img3} alt={pkg.name}/></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id={'about'}>
+                <div className="container py-80">
                     <div className="row justify-content-center align-items-center">
-                        <div className="col-lg-5 me-lg-5">
+                        <div className="col-lg-5 pe-lg-5">
                             <h2>About Me</h2>
-
-
-                            <p>This is your Feature description. Write a short blurb explaining what the feature is and
-                                why it matters for visitors, customers or clients. Don’t be afraid to toot your own
-                                horn! Take this opportunity to emphasize the important benefits or key advantages.</p>
+                            <p>Dr. Mokanalakshmi R.M, MBBS, MD (DVL), DNB (DVL), is a renowned dermatologist specializing in dermatology, aesthetic medicine, and hair transplantation. With a compassionate approach and extensive experience, she excels in providing personalized care to her patients. Dr. Mokanalakshmi was recognized as the best outgoing student in M.D Dermatology and has contributed to various research projects. Certified in aesthetic medicine and hair transplantation, she stays updated on advancements in skincare through continuous training and education. Dr. Mokanalakshmi is proficient in lasers, non-surgical cosmetic treatments, and is dedicated to delivering optimal results to her patients.</p>
                         </div>
 
                         <div className="col-lg-5">
@@ -80,7 +115,7 @@ export const Homepage = () => {
                         <div className="col-lg-10">
                             <div className="psc-card bg-grey">
                                 <div className="psc-card-body text-center p-lg-5">
-                                    <svg className={'mb-3'} fill="#000000" height='3em' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
+                                    <svg className={'mb-3'} fill="#000000" height='3em' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 <g><path d="M50.6292648,26.225668c-0.1288986-1.3934994-0.0303001-5.1816006,3.5985985-10.4492006
 		c0.2745018-0.3975,0.2247009-0.9335995-0.1161957-1.2743998c-1.4795036-1.4794998-2.395504-2.4131002-3.0379982-3.0663996
 		c-0.8448029-0.8614006-1.2305031-1.2539005-1.795002-1.7657003c-0.3769035-0.3388004-0.9472008-0.3446999-1.3281021-0.0125999
@@ -113,10 +148,10 @@ export const Homepage = () => {
                 </div>
             </div>
 
-            <div className="py-80">
-                <div className="container">
+            <div id={'contact'}>
+                <div className="container py-80">
                     <div className="row flex-lg-row-reverse align-items-center">
-                        <div className="col-lg-5 ps-lg-5">
+                        <div className="col-lg-5 ps-lg-5 mb-5 mb-lg-0">
                             <p className={'text-large pb-2'}><b>Address</b></p>
                             <p className={'d-flex border-bottom border-light mb-4'}><svg className={'me-3'} height='1.5em' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M200 488C200 501.3 189.3 512 176 512C162.7 512 152 501.3 152 488V286C83.9 274.6 32 215.4 32 144C32 64.47 96.47 0 176 0C255.5 0 320 64.47 320 144C320 215.4 268.1 274.6 200 286V488zM176 48C122.1 48 80 90.98 80 144C80 197 122.1 240 176 240C229 240 272 197 272 144C272 90.98 229 48 176 48z"/></svg>
                                 2nd floor, Main Rd, Nanganallur, Chennai, Tamil Nadu 600061</p>
@@ -137,5 +172,6 @@ export const Homepage = () => {
                 </div>
             </div>
         </div>
+        </>
     )
 }

@@ -410,25 +410,25 @@ ol {
     }
 
     .pt-80 {
-        padding-top: 50px
+        padding-top: 60px
     }
 
     .pb-80 {
-        padding-bottom: 50px
+        padding-bottom: 60px
     }
 
     .py-80 {
-        padding-top: 50px;
-        padding-bottom: 50px
+        padding-top: 60px;
+        padding-bottom: 60px
     }
 
     .my-80 {
-        margin-top: 50px;
-        margin-bottom: 50px
+        margin-top: 60px;
+        margin-bottom: 60px
     }
 
     .mt-80 {
-        margin-top: 50px
+        margin-top: 60px
     }
 
     .mb-80 {
@@ -522,10 +522,13 @@ ol {
     width: 100%;
     float: left;
     background: rgba(var(--white), 1);
+    padding-top: 90px;
 }
 
-.psc-header-transparent .content-main {
-    padding-top: 0;
+@media (max-width: 1199px) {
+    .content-main {
+        padding-top: 67px;
+    }
 }
 
 .btn {

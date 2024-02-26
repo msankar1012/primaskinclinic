@@ -18,9 +18,17 @@
     left: 0;
 }
 
+@media (max-width: 991px) {
+    .hero-home figure img {
+        height: 500px;
+        opacity: 0.3;
+    }
+}
+
 .service-slider-container .psc-card {
-    width: calc(100% - 30px) !important;
-    margin: 0 15px;
+    width: calc(50% - 30px) !important;
+    margin: 15px;
+    display: inline-block;
 }
 
 .service-slider-container .slick-list,
@@ -30,4 +38,15 @@
 
 .service-slider-container .slick-slide>div {
     height: 100%;
+}
+
+@media (max-width: 991px) {
+    .service-slider-container .psc-card {
+        width: 100% !important;
+        margin: 10px 0;
+    }
+
+    .service-slider-container .slick-dots {
+        bottom: -20px !important;
+    }
 }
