@@ -13,25 +13,13 @@ export const Testimonials = () => {
         <div className="slider-container pb-4">
             <Slider {...settings}>
                 <div>
-                    <p className='pb-0 text-large'><em>"We pride ourselves on providing individualized, superior
-                        cosmetic services using only state-of-the-art technologies. However, what truly
-                        distinguishes PRIMA Skin Clinic as a leader in the beauty treatment industry, is
-                        our passion for helping people and an unwavering commitment to our clients
-                        throughout the entire treatment process."</em></p>
+                    <p className='pb-0 text-large'><em>"Doctor listens to my skin problems patiently and given the best solution for my issues. Received faster results through her medication.. Thanks a lot Dr. Mohanalakshmi for given hope and made me confident.. Ambience is also too good"</em></p>
                 </div>
                 <div>
-                    <p className='pb-0 text-large'><em>"We pride ourselves on providing individualized, superior
-                        cosmetic services using only state-of-the-art technologies. However, what truly
-                        distinguishes PRIMA Skin Clinic as a leader in the beauty treatment industry, is
-                        our passion for helping people and an unwavering commitment to our clients
-                        throughout the entire treatment process."</em></p>
+                    <p className='pb-0 text-large'><em>"Doctor is very caring and listening to the problem very well. She understand my issue and gave medicines which got cured completely.. the best skin doctor, I would say."</em></p>
                 </div>
                 <div>
-                    <p className='pb-0 text-large'><em>"We pride ourselves on providing individualized, superior
-                        cosmetic services using only state-of-the-art technologies. However, what truly
-                        distinguishes PRIMA Skin Clinic as a leader in the beauty treatment industry, is
-                        our passion for helping people and an unwavering commitment to our clients
-                        throughout the entire treatment process."</em></p>
+                    <p className='pb-0 text-large'><em>"I would recommed to visit Dr. Mokanalakshmi for good treatment , explanation of my condition in simple words and well maintained clinic. Got cured completely."</em></p>
                 </div>
             </Slider>
         </div>

@@ -1,4 +1,9 @@
-.map-container {
+#mapContainerStyle {
     height: 400px;
     width: 100%;
+}
+
+#mapContainerStyle img {
+    max-width: none;
+    max-height: none;
 }

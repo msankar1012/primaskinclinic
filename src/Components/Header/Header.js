@@ -1,6 +1,6 @@
 import Navbar from '../Navbar/Navbar'
 import {useEffect} from "react";
-import logo from '../../images/logo-prima.svg'
+import logo from '../../images/logo-prima-skin-clinic.svg'
 import pkg from '../../../package.json'
 import './style.css'
 
@@ -29,7 +29,7 @@ export const Header = () => {
 
                 <Navbar></Navbar>
 
-                <div className='btn-right'>
+                <div className='btn-right d-none d-md-block'>
                     <a href='#book' className='btn btn-primary'>Book Now</a>
                 </div>
             </div>

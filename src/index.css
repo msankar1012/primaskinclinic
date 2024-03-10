@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: 255, 140, 125;
+    --primary-color-light: 255, 241, 233;
     --secondary-color: 183, 33, 255;
     --text-color: 21, 23, 33;
     --link-color: #0065FF;
@@ -294,6 +295,10 @@ ol {
 
 .bg-grey {
     background: rgba(var(--grey), 0.15) !important;
+}
+
+.bg-primary-light {
+    background: rgba(var(--primary-color-light), 0.5) !important;
 }
 
 .bg-dark {

@@ -16,7 +16,7 @@ export const Serviceslider = () => {
     return (
         <Slider {...settings}>
             <div>
-                <div className="psc-card bg-grey h-100">
+                <div className="psc-card bg-primary-light h-100">
                     <div className='psc-card-body h-100'>
                         <h5>Micro Blading</h5>
                         <p className='pb-0'>Micro blading requires mastery and perfection skills to
@@ -24,7 +24,7 @@ export const Serviceslider = () => {
                     </div>
                 </div>
 
-                <div className="psc-card bg-grey h-100">
+                <div className="psc-card bg-primary-light h-100">
                     <div className='psc-card-body h-100'>
                         <h5>Nose/Ear Piercing</h5>
                         <p className='pb-0'>Using medical instrument to make the hole after numbing
@@ -32,7 +32,7 @@ export const Serviceslider = () => {
                     </div>
                 </div>
 
-                <div className="psc-card bg-grey h-100">
+                <div className="psc-card bg-primary-light h-100">
                     <div className='psc-card-body h-100'>
                         <div>
                             <h5>Ear lobe repair</h5>
@@ -42,7 +42,7 @@ export const Serviceslider = () => {
                     </div>
                 </div>
 
-                <div className="psc-card bg-grey h-100">
+                <div className="psc-card bg-primary-light h-100">
                     <div className='psc-card-body h-100'>
                         <h5>Cautery</h5>
                         <p className='pb-0'>Electrocauterization is a procedure that uses an
@@ -52,7 +52,7 @@ export const Serviceslider = () => {
             </div>
 
             <div>
-                <div className="psc-card bg-grey h-100">
+                <div className="psc-card bg-primary-light h-100">
                     <div className='psc-card-body h-100'>
                         <div>
                             <h5>Keloid treatment</h5>
@@ -62,7 +62,7 @@ export const Serviceslider = () => {
                     </div>
                 </div>
 
-                <div className="psc-card bg-grey h-100">
+                <div className="psc-card bg-primary-light h-100">
                     <div className='psc-card-body h-100'>
                         <h5>Infusion therapy</h5>
                         <p className='pb-0'>Our body requires an optimum amount of vitamins and
@@ -70,7 +70,7 @@ export const Serviceslider = () => {
                     </div>
                 </div>
 
-                <div className="psc-card bg-grey h-100">
+                <div className="psc-card bg-primary-light h-100">
                     <div className='psc-card-body h-100'>
                         <h5>Tattoo removal</h5>
                         <p className='pb-0'>You may get rid of the tattoo which you had got done
@@ -78,7 +78,7 @@ export const Serviceslider = () => {
                     </div>
                 </div>
 
-                <div className="psc-card bg-grey h-100">
+                <div className="psc-card bg-primary-light h-100">
                     <div className='psc-card-body h-100'>
                         <h5>Hair Care</h5>
                         <p className='pb-0'>Our experienced dermatologists provide personalized consultation and a range of hair care services to help you achieve healthy and lustrous hair.</p>

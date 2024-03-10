@@ -9,9 +9,10 @@ import Img1 from '../../images/img-1.svg'
 import Img2 from '../../images/img-2.png'
 import Img3 from '../../images/img-3.png'
 import pkg from '../../../package.json'
-import Map from "../../Components/Map/Map";
+//import Map from "../../Components/Map/Map";
 import {Serviceslider} from "../../Components/Serviceslider/Serviceslider";
 import {Testimonials} from "../../Components/Tesitimonials/Testimonials";
+//import MapView from "../../Components/Map/Map";
 
 
 export const Homepage = () => {
@@ -53,7 +54,7 @@ export const Homepage = () => {
             </div>
 
 
-            <div className="py-80 bg-grey">
+            <div className="py-80 bg-primary-light">
                 <div className="container">
                     <div className="row flex-lg-row-reverse align-items-center">
                         <div className="col-lg-6 ps-lg-5">
@@ -73,7 +74,7 @@ export const Homepage = () => {
                 </div>
             </div>
 
-            <div className="py-80 bg-grey">
+            <div className="py-80 bg-primary-light">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 pe-lg-5">
@@ -112,8 +113,8 @@ export const Homepage = () => {
             <div className="py-5">
                 <div className="container">
                     <div className="row justify-content-center">
-                        <div className="col-lg-10">
-                            <div className="psc-card bg-grey">
+                        <div className="col-lg-8">
+                            <div className="psc-card bg-primary-light">
                                 <div className="psc-card-body text-center p-lg-5">
                                     <svg className={'mb-3'} fill="#000000" height='3em' version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 <g><path d="M50.6292648,26.225668c-0.1288986-1.3934994-0.0303001-5.1816006,3.5985985-10.4492006
@@ -166,7 +167,7 @@ export const Homepage = () => {
                         </div>
 
                         <div className="col-lg-7">
-                            <Map />
+                            <iframe title="Google Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d817.3143423516541!2d80.19160188157011!3d12.983098270563405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525dde5efa8849%3A0x95068e03c592e1a0!2sPRIMA%20SKIN%20AND%20AESTHETICS%20-%20Dr.MOKANALAKSHMI%20R.M%20MBBS%2CMD(DVL)%2CDNB(DVL)!5e0!3m2!1sen!2sin!4v1710063408410!5m2!1sen!2sin" width="100%" height="380" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
                 </div>

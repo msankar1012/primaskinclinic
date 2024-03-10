@@ -1,4 +1,4 @@
-import logoFooter from '../../images/logo-prima-skin-clinic-footer.svg'
+import logoFooter from '../../images/logo-prima-skin-clinic-white.svg'
 import pkg from '../../../package.json'
 import './style.css'
 export const Footer = () => {

@@ -3,6 +3,11 @@
     display: inline-block;
 }
 
+.psc-footer .logo-footer img {
+    height: 70px;
+}
+
+
 .psc-footer p,
 .psc-footer p a {
     color: rgba(var(--grey), 1);
