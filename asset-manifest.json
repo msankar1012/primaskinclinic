@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/primaskinclinic/static/css/main.a7de9b8a.css",
-    "main.js": "/primaskinclinic/static/js/main.0472f70a.js",
+    "main.css": "/primaskinclinic/static/css/main.bb831203.css",
+    "main.js": "/primaskinclinic/static/js/main.d4de303c.js",
     "static/js/592.f1ae4ebe.chunk.js": "/primaskinclinic/static/js/592.f1ae4ebe.chunk.js",
     "static/media/img-1.svg": "/primaskinclinic/static/media/img-1.fc44df754f2bd3207ab295eab6896015.svg",
     "static/media/hero-home.svg": "/primaskinclinic/static/media/hero-home.3f6006cd6b6c32d374732e35800c601b.svg",
     "static/media/img-3.png": "/primaskinclinic/static/media/img-3.4004c9140cc83534a5d4.png",
     "static/media/img-2.png": "/primaskinclinic/static/media/img-2.83580d970815933f471a.png",
-    "static/media/logo-prima-skin-clinic-footer.svg": "/primaskinclinic/static/media/logo-prima-skin-clinic-footer.7470568a3d893b0081cffd3f9163aed5.svg",
     "static/media/logo-prima.svg": "/primaskinclinic/static/media/logo-prima.774d7f402a0ce421f390b34583f39cab.svg",
+    "static/media/logo-prima-skin-clinic-white.svg": "/primaskinclinic/static/media/logo-prima-skin-clinic-white.14ec1800c472956e2070c528571d8969.svg",
+    "static/media/logo-prima-skin-clinic.svg": "/primaskinclinic/static/media/logo-prima-skin-clinic.ba7462294cf91a947e7e94da4e385fa1.svg",
     "static/media/slick.svg": "/primaskinclinic/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/primaskinclinic/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/primaskinclinic/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/primaskinclinic/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/primaskinclinic/index.html",
-    "main.a7de9b8a.css.map": "/primaskinclinic/static/css/main.a7de9b8a.css.map",
-    "main.0472f70a.js.map": "/primaskinclinic/static/js/main.0472f70a.js.map",
+    "main.bb831203.css.map": "/primaskinclinic/static/css/main.bb831203.css.map",
+    "main.d4de303c.js.map": "/primaskinclinic/static/js/main.d4de303c.js.map",
     "592.f1ae4ebe.chunk.js.map": "/primaskinclinic/static/js/592.f1ae4ebe.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a7de9b8a.css",
-    "static/js/main.0472f70a.js"
+    "static/css/main.bb831203.css",
+    "static/js/main.d4de303c.js"
   ]
 }
