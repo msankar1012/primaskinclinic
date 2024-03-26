@@ -30,7 +30,7 @@ export const Header = () => {
                 <Navbar></Navbar>
 
                 <div className='btn-right d-none d-md-block'>
-                    <a href='#book' className='btn btn-primary'>Book Now</a>
+                    <a href='https://primaskinandaesthetics.zohobookings.com/#/primaskinandaesthetics' target={'_blank'} rel={'noreferrer'} className='btn btn-primary'>Book Now</a>
                 </div>
             </div>
         </header>
